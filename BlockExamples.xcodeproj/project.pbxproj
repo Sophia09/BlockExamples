@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		325123C6206358C300F964CC /* NewTarget.m in Sources */ = {isa = PBXBuildFile; fileRef = 325123C5206358C300F964CC /* NewTarget.m */; };
 		32F378D71E82827C00E5E4B3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 32F378D61E82827C00E5E4B3 /* main.m */; };
 		32F378DA1E82827C00E5E4B3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 32F378D91E82827C00E5E4B3 /* AppDelegate.m */; };
 		32F378DD1E82827C00E5E4B3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32F378DC1E82827C00E5E4B3 /* ViewController.m */; };
@@ -16,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		325123C4206358C300F964CC /* NewTarget.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NewTarget.h; sourceTree = "<group>"; };
+		325123C5206358C300F964CC /* NewTarget.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NewTarget.m; sourceTree = "<group>"; };
 		32F378D21E82827C00E5E4B3 /* BlockExamples.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlockExamples.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		32F378D61E82827C00E5E4B3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		32F378D81E82827C00E5E4B3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -62,6 +65,8 @@
 				32F378D91E82827C00E5E4B3 /* AppDelegate.m */,
 				32F378DB1E82827C00E5E4B3 /* ViewController.h */,
 				32F378DC1E82827C00E5E4B3 /* ViewController.m */,
+				325123C4206358C300F964CC /* NewTarget.h */,
+				325123C5206358C300F964CC /* NewTarget.m */,
 				32F378DE1E82827C00E5E4B3 /* Main.storyboard */,
 				32F378E11E82827C00E5E4B3 /* Assets.xcassets */,
 				32F378E31E82827C00E5E4B3 /* LaunchScreen.storyboard */,
@@ -154,6 +159,7 @@
 				32F378DD1E82827C00E5E4B3 /* ViewController.m in Sources */,
 				32F378DA1E82827C00E5E4B3 /* AppDelegate.m in Sources */,
 				32F378D71E82827C00E5E4B3 /* main.m in Sources */,
+				325123C6206358C300F964CC /* NewTarget.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -312,6 +318,7 @@
 				32F378EB1E82827C00E5E4B3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
